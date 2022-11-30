@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cod_head{
+
+    height: 50px;
+    display: flex;
+    width: 100%;
+    background-image: radial-gradient(circle at 1px 1px, rgba(255, 255, 255, 0.26) 1px, transparent 0);
+    background-size: 4px 4px;
+    
+}
+.purchase{
+       background-color:#71af3a;
+       color: white;
+       font-family:15px VA-text-caps-bold ;
+       width:18%;
+       border-color: #71af3a;
+       font-size: 16px;
+       text-shadow: 1px 1px black;
+       cursor: pointer;
+       
+}
+.cod_logo{
+           background-color:black;
+           background-image: radial-gradient(circle at 1px 1px, rgba(255, 255, 255, 0.26) 1px, transparent 0);
+           background-size: 4px 4px;
+           border: none;
+           padding: 10px;
+
+           }
+.cod_logo:hover{
+            background:#000 ;
+            color:#000 ;
+          }
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+.just-center{
+    justify-content: center;
+}
+.just-evenly{
+    justify-content: space-evenly;
+}
+.just-around{
+    justify-content: space-around;
+}
+.just-left{
+    justify-content: left;
+}
+.just-between{
+        justify-content: space-between;
+}
+.just-right{
+    justify-content: right;
+}
+
+.elements{
+         display: flex;        
+         text-align: left; 
+         cursor: pointer;
+         width:65%;
+         padding: 8px;
+         padding-left: 20px;
+         padding-top: 15px;
+         font-weight: 100px;
+         font-size: 13px;
+         color:#969696 ;
+
+}
+.beechwala{
+    width: 100%;
+    
+     cursor: pointer;
+     display: flex;        
+     
+     width:65%;
+     padding: 8px;
+     padding-right: 25px;
+     padding-top: 15px;
+     font-weight: 100px;
+     font-size: 13px;
+     color:#969696 ;
+     
+}
+
+/* front herow section*/
+
+.front_hero{
+    background-image: url("https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/hub/hero/2022/11/COD_Hub_Hero_Desktop.jpg");
+    height: 610px;
+    width: 100%;
+    background-size: cover;
+    color: aliceblue;
+
+    }
+
+    .as{
+        background-color: #71af3a;
+        height: 400px;
+    }
+
+    .warzone_logo{
+
+        height: 5000px;
+        width: 100px;
+        padding-top: 110px;
+        padding-left: 60px;
+        
+    }
+
+    .text{
+        font-size: 23px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight:lighter;
+        
+    }
+    .btn1{
+            background-color:whitesmoke;
+            height: 50px;
+            width: 100%;
+            cursor: pointer;
+             
+    }
+    .buttonstwo
+    {
+        
+        height: 100px;
+        width: 450px;
+    }
+    .b1{
+        font-size: 18px;
+    }
+
+    .midpart1{
+        width: 100%;
+        background-color: blue;
+        height: 350px;
+    }
+    .midpart2{
+        width: 100%;
+        background-color: red;
+        height: 282px;
+        margin-top: 0%;
+    }
+    .mp1{
+        height: 100%;
+        width: 100%
+    }
+    .bar1
+    {
+        
+        width: 100%;
+        height: 60px;
+    }
+    .mp1img{
+        width: 68%; 
+        background-image: url('https://staticg.sportskeeda.com/editor/2022/11/d0dce-16690227654801-1920.jpg ');
+        /* background-size: cover; */
+        background-repeat: no-repeat; 
+        height: 350px;
+        background-size: 1012px 400px; 
+    }
+    .bt{
+        margin-top: 25px;
+        margin-left: 700px;
+        background-color:whitesmoke;
+        height: 50px;
+        width: 20%;
+        cursor: pointer;
+    }
+    .text2{
+        padding-left: 700px;
+        padding-top: 170px;
+        font-size: 23px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight:lighter;
+        color: white;
+}
+.ghost{
+    height: 100%;
+    
+    background-image: url('https://www.callofduty.com/content/dam/atvi/callof…/cod-touchui/hub/main-tout/2022/11/Ghost_tout.jpg');
+}
+.mp2img{
+    
+    background-color: #71af3a;
+
+    height:100%;
+    width: 34%;
+}
+.skullimg{
+    width: 100%;
+    height: 100%;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+ 
+}
+.skullimg:hover{
+    
+    transform: scale(1.1);
+      
+    
+}
+
+.nichekabar{
+    padding-top: 6px;
+    height: 50px;
+    width: px;
+}
+.nichekatext{
+    color: white;
+    font-size: 15px;
+}
+
+hr {
+    position: relative;
+    top: 15px;
+    border: none;
+    height: 0.2px;
+    background: rgba(255, 255, 255, 0.57);
+    margin-bottom: 50px;
+
+}
+.latestnews{
+    
+    height: 350px;
+    width: 100%;
+    cursor: pointer;
+}
+.lastss
+{
+    height: 400px;
+    width: 100%;
+    cursor: pointer;
+    padding-top: 30px;
+}
+.footer{
+    color: white;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding-top: 180px;
+}
+.tab{
+  padding-left: 30%;  
+  padding-top: 5%;
+}
+.endline1{
+    width: 50%;
+    height: 100%;
+    /* background-color: #71af3a; */
+}
+.endline{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    /* background-color:rgba(255, 255, 255, 0.57); */
+}
+.endline2{
+    width: 50%;
+    height: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    padding-top: 25px;
+}
+.lastico{
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.753);
+}
+.lntable{
+    
+    margin: auto;
+    padding-top: 75px;
+}
+
+.lntext{
+    color: white;
+}
+.hvtd:hover{
+    transform: scale(1.1);
+    overflow: hidden;
+}
+.getgame{
+    
+    height: 270px;
+    width: 300px;
+}
+.getgame:hover
+{
+    transform: scale(1.1);
+    overflow: hidden;
+}
